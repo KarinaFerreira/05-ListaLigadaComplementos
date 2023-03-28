@@ -9,6 +9,7 @@ struct NO {
 
 NO* primeiro = NULL;
 
+
 // headers
 void menu();
 void inicializar();
@@ -129,7 +130,7 @@ void inserirElemento()
 	{
 		primeiro = novo;
 	}
-	else
+	else 
 	{
 		// procura o final da lista
 		NO* aux = primeiro;
