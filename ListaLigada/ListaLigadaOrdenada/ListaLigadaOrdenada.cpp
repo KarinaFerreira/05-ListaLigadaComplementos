@@ -180,7 +180,7 @@ void excluirElemento()
 	cin >> num;
 
 	if (posicaoElemento(num) == NULL) {
-		cout << "ELEMENTO NAO ENCONTRADO" << endl;
+		cout << "Elemento não encontrado." << endl;
 	}
 	else {
 		NO* aux = primeiro;
@@ -209,11 +209,11 @@ void buscarElemento()
 	cin >> num;
 
 	if (posicaoElemento(num) != NULL) {
-		cout << "ENCONTRADO" << endl;
+		cout << "Encontrado." << endl;
 	}
 
 	else {
-		cout << "ELEMENTO NAO ENCONTRADO" << endl;
+		cout << "Elemento não encontrado." << endl;
 	}
 }
 
